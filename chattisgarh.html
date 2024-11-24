@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Chhattisgarh</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 20px;
+        }
+
+        /* Banner Image */
+        .banner-image {
+            width: 750px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 19%;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Transportation Section */
+        #transportation {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Destination Styles */
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: scale(1.02);
+        }
+
+        .destination-image {
+            width: 300px;
+            height: auto;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Video Section */
+        .video-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #1a252f;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Chhattisgarh</h1>
+        <nav>
+            <ul>
+                <li><a href="Harsh.html">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Chhattisgarh</h2>
+            <p>Chhattisgarh is a state known for its natural beauty, tribal culture, and historical significance. Explore dense forests, waterfalls, and ancient temples that make Chhattisgarh an ideal destination for nature lovers and history enthusiasts alike.</p>
+            <img src="https://highcourt.cg.gov.in/images/hc_org.jpg" alt="Scenic Chhattisgarh" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Chhattisgarh</h2>
+            <p>Travel options to Chhattisgarh from LPU:</p>
+            <ul>
+                <li><strong>Raipur:</strong> ~1,200 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹4,000 - ₹6,000 (to Raipur Airport)</li>
+                        <li><strong>Bus:</strong> ₹700 - ₹1,500 (approximately 24-28 hours)</li>
+                        <li><strong>Train:</strong> ₹500 - ₹1,500 (to Raipur Junction)</li>
+                    </ul>
+                </li>
+                <li><strong>Bilaspur:</strong> ~1,220 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹4,500 - ₹7,000 (to Raipur, then 125 km by road)</li>
+                        <li><strong>Bus:</strong> ₹750 - ₹1,700 (approximately 25-30 hours)</li>
+                    </ul>
+                </li>
+                <li><strong>Durg:</strong> ~1,230 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹4,500 - ₹7,500 (to Raipur, then 40 km by road)</li>
+                        <li><strong>Bus:</strong> ₹750 - ₹1,700 (approximately 26-31 hours)</li>
+                    </ul>
+                </li>
+                <li><strong>Raigarh:</strong> ~1,240 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹5,000 - ₹8,000 (to Raipur, then 160 km by road)</li>
+                        <li><strong>Bus:</strong> ₹800 - ₹1,800 (approximately 27-32 hours)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations in Chhattisgarh</h2>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/1997260960/photo/small-pond-inside-the-campus-of-mahadeva-temple-deobaloda-raipur-chhattisgarh-india.jpg?b=1&s=612x612&w=0&k=20&c=5sErDDvd-iv0luTzQjuyPzoa1K5uadtr1DV4f0gypQ4=" alt="Raipur" class="destination-image">
+                <div class="destination-info">
+                    <h3>Raipur</h3>
+                    <p>Raipur, the capital city of Chhattisgarh, is a growing urban center with a rich cultural heritage. It is also a gateway to several nearby tourist destinations like Kanger Valley and Chitrakote Waterfalls.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/1025954760/photo/yantra-temple-in-amarkantak-madhya-pradesh-india.jpg?b=1&s=612x612&w=0&k=20&c=BdKjpKTWutuiSpChm5RVLaA-yIsFqLcj097iwuwdQVo=" alt="Bilaspur" class="destination-image">
+                <div class="destination-info">
+                    <h3>Bilaspur</h3>
+                    <p>Bilaspur is known for its vibrant culture and scenic views. The city is home to several temples and nearby natural wonders such as the Achanakmar Wildlife Sanctuary.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/1125601960/photo/kalavantin-durg-mountain-in-maharashtra-india.jpg?b=1&s=612x612&w=0&k=20&c=R_qxJOhKU0nwkuq4IiycqnD6hZ97bqFCRNT8SL5x5EY=" alt="Durg" class="destination-image">
+                <div class="destination-info">
+                    <h3>Durg</h3>
+                    <p>Durg is a historical town famous for its forts and temples, including the famous Durg Fort. It is surrounded by beautiful hills and forests.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="data:image/jpeg;base64,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" alt="Raigarh" class="destination-image">
+                <div class="destination-info">
+                    <h3>Raigarh</h3>
+                    <p>Raigarh is famous for its majestic Raigarh Fort, and it is also known for its beautiful tribal culture and art forms, making it a cultural hub in the state.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Chhattisgarh. All rights reserved.</p>
+    </footer>
+</body>
+</html>

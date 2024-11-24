@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Karnataka</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        header {
+            background-color: #00796B;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 20px;
+        }
+
+        /* Banner Image */
+        .banner-image {
+            width: 750px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 19%;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Transportation Section */
+        #transportation {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Destination Styles */
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: scale(1.02);
+        }
+
+        .destination-image {
+            width: 300px;
+            height: auto;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Video Section */
+        .video-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #00796B;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #004d40;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #00796B;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Karnataka</h1>
+        <nav>
+            <ul>
+                <li><a href="Harsh.html">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Karnataka</h2>
+            <p>Karnataka, a southern state in India, is renowned for its vibrant culture, stunning landscapes, rich history, and iconic architectural landmarks. From the royal palaces of Mysore to the serene beaches of Gokarna, Karnataka offers something for every traveler!</p>
+            <img src="https://media.istockphoto.com/id/1281931838/photo/the-mysore-palace-at-night-in-mysore-in-southern-india.jpg?s=612x612&w=0&k=20&c=ylyE9VYrc008JnHKdXKDxbJx-_I2U8-oQFJDzwJk9Pw=" alt="Scenic Karnataka" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Karnataka</h2>
+            <p>Travel options to Karnataka from LPU:</p>
+            <ul>
+                <li><strong>Bengaluru (Bangalore):</strong> ~1,800 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,500 - ₹6,000 (to Kempegowda International Airport)</li>
+                        <li><strong>Bus:</strong> ₹1,500 - ₹2,500 (approximately 30-35 hours)</li>
+                        <li><strong>Train:</strong> ₹700 - ₹1,500 (to Bengaluru City Railway Station)</li>
+                    </ul>
+                </li>
+                <li><strong>Mysuru (Mysore):</strong> ~1,780 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,000 - ₹5,000 (to Mysore Airport)</li>
+                        <li><strong>Bus:</strong> ₹1,200 - ₹2,000 (approximately 28-33 hours)</li>
+                        <li><strong>Train:</strong> ₹700 - ₹1,300 (to Mysore Railway Station)</li>
+                    </ul>
+                </li>
+                <li><strong>Hampi:</strong> ~1,850 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,500 - ₹5,500 (to Hubli Airport, then 150 km by road)</li>
+                        <li><strong>Bus:</strong> ₹1,200 - ₹2,000 (approximately 35-40 hours)</li>
+                        <li><strong>Train:</strong> ₹700 - ₹1,500 (to Hospet Railway Station, then 10 km by road)</li>
+                    </ul>
+                </li>
+                <li><strong>Gokarna:</strong> ~1,900 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,500 - ₹5,500 (to Dabolim Airport, Goa, then 60 km by road)</li>
+                        <li><strong>Bus:</strong> ₹1,500 - ₹2,500 (approximately 40-45 hours)</li>
+                        <li><strong>Train:</strong> ₹800 - ₹1,500 (to Gokarna Road Railway Station)</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>Choose your preferred mode of transportation and explore the wonderful sights Karnataka has to offer!</p>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations in Karnataka</h2>
+            <div class="destination">
+                <img src="data:image/jpeg;base64,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" alt="Bengaluru" class="destination-image">
+                <div class="destination-info">
+                    <h3>Bengaluru (Bangalore)</h3>
+                    <p>The Silicon Valley of India, known for its tech industry, beautiful parks, and vibrant nightlife. Visit the Lalbagh Botanical Garden and the iconic Bengaluru Palace.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/5480518/pexels-photo-5480518.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mysore" class="destination-image">
+                <div class="destination-info">
+                    <h3>Mysuru (Mysore)</h3>
+                    <p>A city steeped in royal history, home to the majestic Mysore Palace and the vibrant Dasara festival. Don't miss the Chamundeshwari Temple and the nearby Brindavan Gardens.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/19029629/pexels-photo-19029629/free-photo-of-stone-chariot-in-nimbapura-in-india.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Hampi" class="destination-image">
+                <div class="destination-info">
+                    <h3>Hampi</h3>
+                    <p>A UNESCO World Heritage site, Hampi is famous for its ancient ruins, temples, and bouldered landscapes. Explore the Virupaksha Temple and the ruins of Vijayanagara Empire.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/6769121/pexels-photo-6769121.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Gokarna" class="destination-image">
+                <div class="destination-info">
+                    <h3>Gokarna</h3>
+                    <p>A serene coastal town known for its pristine beaches and temples. Gokarna is an offbeat destination that attracts pilgrims and backpackers alike.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Karnataka. All rights reserved.</p>
+    </footer>
+</body>
+</html>

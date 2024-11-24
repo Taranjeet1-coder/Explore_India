@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Red Fort</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 20px;
+        }
+
+        /* Banner Image */
+        .banner-image {
+            width: 750px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 19%;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Transportation Section */
+        #transportation {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Destination Styles */
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: scale(1.02);
+        }
+
+        .destination-image {
+            width: 300px;
+            height: auto;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #1a252f;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Red Fort</h1>
+        <nav>
+            <ul>
+                <li><a href="Harsh.html">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#details">Red Fort Details</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to the Red Fort</h2>
+            <p>The Red Fort, or Lal Qila, is a historic fort located in the heart of Delhi, India. It was the main residence of the Mughal emperors for around 200 years, from the mid-17th century until the British colonial era. It is an iconic symbol of India's rich Mughal heritage and has been recognized as a UNESCO World Heritage site. The fort is known for its grand architecture, including the impressive red sandstone walls, intricate inlays, and sprawling courtyards.</p>
+            <img src="https://media.istockphoto.com/id/510444123/photo/lal-qila-red-fort-in-delhi.jpg?s=612x612&w=0&k=20&c=t4Dqx-kpGelh2qpyG2Wg2UKWirdC5pCWXYFIIICg6YA=" alt="Red Fort" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Red Fort</h2>
+            <p>Travel options to **Red Fort** from **LPU (Lovely Professional University)**:</p>
+            <ul>
+                <li><strong>Delhi (Red Fort):</strong> ~400 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹2,000 - ₹3,500 (to Indira Gandhi International Airport, Delhi)</li>
+                        <li><strong>Train:</strong> ₹500 - ₹1,200 (to New Delhi Railway Station)</li>
+                        <li><strong>Bus:</strong> ₹700 - ₹1,100 (approximately 7-8 hours)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="details">
+            <h2>Red Fort Details</h2>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/29005685/pexels-photo-29005685/free-photo-of-red-fort-in-delhi-with-indian-flag.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Inside Red Fort" class="destination-image">
+                <div class="destination-info">
+                    <h3>About the Red Fort</h3>
+                    <p>The Red Fort was built by Mughal Emperor Shah Jahan in the mid-1600s. The fort’s massive red sandstone walls and beautiful Mughal-style architecture make it one of Delhi’s most famous landmarks. The fort houses several impressive structures like the Diwan-i-Aam (Hall of Public Audience), Diwan-i-Khas (Hall of Private Audience), and the beautiful Moti Masjid (Pearl Mosque).</p>
+                    <p>The fort’s structure combines Persian, Timurid, and Indian architectural styles, showcasing the grandeur of the Mughal Empire. The fort also served as the central seat of Mughal power and has witnessed numerous important historical events, including India's first war of independence in 1857.</p>
+                </div>
+            </div>
+
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/510444123/photo/lal-qila-red-fort-in-delhi.jpg?s=612x612&w=0&k=20&c=t4Dqx-kpGelh2qpyG2Wg2UKWirdC5pCWXYFIIICg6YA=" alt="Red Fort Architecture" class="destination-image">
+                <div class="destination-info">
+                    <h3>Red Fort Architecture</h3>
+                    <p>The fort's walls stretch over 2.5 kilometers, and its main entrance, the Lahore Gate, is a monumental structure in itself. Inside, visitors can explore numerous buildings and structures, each with distinct characteristics. The Diwan-i-Khas, where the emperor would hold private meetings, is a masterpiece of Mughal architecture with its intricate marble designs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Red Fort. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

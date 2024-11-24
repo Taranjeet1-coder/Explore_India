@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Assam</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 20px;
+        }
+
+        /* Banner Image */
+        .banner-image {
+            width: 750px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 19%;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Transportation Section */
+        #transportation {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Destination Styles */
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: scale(1.02);
+        }
+
+        .destination-image {
+            width: 300px;
+            height: auto;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Video Section */
+        .video-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #1a252f;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Assam</h1>
+        <nav>
+            <ul>
+                <li><a href="Harsh.html">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Assam</h2>
+            <p>Assam, located in the northeastern part of India, is known for its lush tea gardens, the mighty Brahmaputra River, and a rich cultural heritage. From the UNESCO-listed Kaziranga National Park to the vibrant festivals like Bihu, Assam is a true paradise for nature lovers and culture enthusiasts.</p>
+            <img src="https://images.pexels.com/photos/3848200/pexels-photo-3848200.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Scenic Assam" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Assam</h2>
+            <p>Travel options to Assam from LPU:</p>
+            <ul>
+                <li><strong>Guwahati:</strong> ~1,200 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹4,000 - ₹7,000 (to Lokpriya Gopinath Bordoloi International Airport, Guwahati)</li>
+                        <li><strong>Bus:</strong> ₹1,200 - ₹1,800 (approximately 20-24 hours)</li>
+                        <li><strong>Train:</strong> ₹800 - ₹1,500 (to Guwahati Railway Station)</li>
+                    </ul>
+                </li>
+                <li><strong>Kaziranga:</strong> ~1,300 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹4,000 - ₹6,500 (to Guwahati, then 4-hour drive to Kaziranga)</li>
+                        <li><strong>Bus:</strong> ₹1,500 - ₹2,000 (approximately 24-26 hours)</li>
+                        <li><strong>Train:</strong> ₹900 - ₹1,500 (to Jorhat or Kaziranga Railway Station, then taxi to the park)</li>
+                    </ul>
+                </li>
+                <li><strong>Tezpur:</strong> ~1,100 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,500 - ₹6,000 (to Guwahati, then 3-hour drive to Tezpur)</li>
+                        <li><strong>Bus:</strong> ₹1,200 - ₹1,800 (approximately 22-24 hours)</li>
+                        <li><strong>Train:</strong> ₹800 - ₹1,300 (to Tezpur Railway Station)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations in Assam</h2>
+            <div class="destination">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg8pFIxNQRSmP_61XCdsgf4U7M7jTeN2GHjg&s" alt="Guwahati" class="destination-image">
+                <div class="destination-info">
+                    <h3>Guwahati</h3>
+                    <p>Guwahati, the gateway to Assam, is a vibrant city known for its temples, Brahmaputra River views, and rich cultural heritage. Key attractions include Kamakhya Temple, Umananda Island, and the Assam State Museum.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoZhWpsXlEtS4aUxrKU4lQszeu3GIV97baVg&s" alt="Kaziranga National Park" class="destination-image">
+                <div class="destination-info">
+                    <h3>Kaziranga National Park</h3>
+                    <p>Known for its population of one-horned rhinoceroses, Kaziranga is a UNESCO World Heritage Site. It offers a thrilling safari experience with diverse wildlife, including tigers, elephants, and deer.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="data:image/jpeg;base64,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" alt="Tezpur" class="destination-image">
+                <div class="destination-info">
+                    <h3>Tezpur</h3>
+                    <p>Tezpur, often called the 'Cultural Capital of Assam,' is known for its historical temples, ancient ruins, and picturesque views of the Brahmaputra River. Major attractions include the Agnigarh Fort and the picturesque Nameri National Park.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Assam. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

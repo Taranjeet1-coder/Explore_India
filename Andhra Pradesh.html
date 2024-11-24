@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Andhra Pradesh</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        header {
+            background-color: #2980B9;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 20px;
+        }
+
+        /* Banner Image */
+        .banner-image {
+            width: 750px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 19%;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Transportation Section */
+        #transportation {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Destination Styles */
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: scale(1.02);
+        }
+
+        .destination-image {
+            width: 300px;
+            height: auto;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Video Section */
+        .video-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #2980B9;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #1D6A8B;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2980B9;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Andhra Pradesh</h1>
+        <nav>
+            <ul>
+                <li><a href="Harsh.html">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Andhra Pradesh</h2>
+            <p>Andhra Pradesh, the land of cultural diversity and natural beauty, offers everything from lush beaches to ancient temples and monuments. Explore cities like Visakhapatnam, Tirupati, and Vijayawada to experience the soul of South India.</p>
+            <img src="https://media.istockphoto.com/id/1320580821/photo/beached-ship-at-sunrise.jpg?s=612x612&w=0&k=20&c=CKe7cc0cnR9Z5X-oBI0ex6V5lCRXyEpQM3wQvjclG60=" alt="Scenic Andhra Pradesh" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Andhra Pradesh</h2>
+            <p>Travel options to Andhra Pradesh from LPU:</p>
+            <ul>
+                <li><strong>Visakhapatnam:</strong> ~1,700 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹4,500 - ₹7,000 (to Visakhapatnam Airport)</li>
+                        <li><strong>Bus:</strong> ₹1,500 - ₹2,500 (approximately 35-40 hours)</li>
+                        <li><strong>Train:</strong> ₹1,200 - ₹2,000 (to Visakhapatnam Junction)</li>
+                    </ul>
+                </li>
+                <li><strong>Tirupati:</strong> ~1,600 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,500 - ₹6,500 (to Tirupati Airport)</li>
+                        <li><strong>Bus:</strong> ₹1,400 - ₹2,500 (approximately 35-40 hours)</li>
+                        <li><strong>Train:</strong> ₹1,000 - ₹1,800 (to Tirupati Railway Station)</li>
+                    </ul>
+                </li>
+                <li><strong>Vijayawada:</strong> ~1,650 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹4,000 - ₹6,500 (to Vijayawada Airport)</li>
+                        <li><strong>Bus:</strong> ₹1,400 - ₹2,500 (approximately 35-40 hours)</li>
+                        <li><strong>Train:</strong> ₹1,100 - ₹1,800 (to Vijayawada Junction)</li>
+                    </ul>
+                </li>
+                <li><strong>Amaravati:</strong> ~1,700 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹4,500 - ₹7,000 (to Gannavaram Airport, Vijayawada)</li>
+                        <li><strong>Bus:</strong> ₹1,500 - ₹2,500 (approximately 35-40 hours)</li>
+                        <li><strong>Train:</strong> ₹1,200 - ₹2,000 (to Vijayawada Junction, 30 minutes drive to Amaravati)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations in Andhra Pradesh</h2>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/904650758/photo/vizag-andhra-pradesh.jpg?b=1&s=612x612&w=0&k=20&c=sjMrqsoVIYKy2pwog_Qmcw0zNFZSMM2ygbJeJYp6iFY=" alt="Visakhapatnam" class="destination-image">
+                <div class="destination-info">
+                    <h3>Visakhapatnam</h3>
+                    <p>Known as the "City of Destiny," Visakhapatnam boasts pristine beaches, hills, and bustling markets. Visit the famous RK Beach, Kailasagiri Hill, and the Submarine Museum.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="data:image/jpeg;base64,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" alt="Tirupati" class="destination-image">
+                <div class="destination-info">
+                    <h3>Tirupati</h3>
+                    <p>Tirupati is home to the renowned Tirumala Venkateswara Temple, attracting millions of devotees annually. The town is also surrounded by hills, waterfalls, and rich cultural heritage.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/1746441664/photo/kanaka-durga-ammavari-golden-temple-kanaka-durgamma-temple-krishna-lanka-karakatta-at.jpg?b=1&s=612x612&w=0&k=20&c=Pbpchsbk7o3cu6yxERXQNuXjlnTcqosXCzJXzypyoWI=" alt="Vijayawada" class="destination-image">
+                <div class="destination-info">
+                    <h3>Vijayawada</h3>
+                    <p>Famous for its temples, including the Kanaka Durga Temple, and the majestic Prakasam Barrage, Vijayawada is a hub for culture and tourism in the state.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/683979926/photo/125-feet-high-dhyana-buddha-statue-on-bank-of-river-krishna-where-historic-stupa-was-built-in.jpg?b=1&s=612x612&w=0&k=20&c=K9sl0uOYmjVk52NfMCQ0lOIIL7l7tVylrANaNcRaeT4=" alt="Amaravati" class="destination-image">
+                <div class="destination-info">
+                    <h3>Amaravati</h3>
+                    <p>Amaravati, the capital city of Andhra Pradesh, is known for the ancient Buddhist Amaravati Stupa and the new modern architecture being developed around it.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="2" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Andhra Pradesh. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

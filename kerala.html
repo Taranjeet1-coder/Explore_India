@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Kerala</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 20px;
+        }
+
+        /* Banner Image */
+        .banner-image {
+            width: 750px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 19%;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Transportation Section */
+        #transportation {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Destination Styles */
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: scale(1.02);
+        }
+
+        .destination-image {
+            width: 300px;
+            height: auto;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #1a252f;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Kerala</h1>
+        <nav>
+            <ul>
+                <li><a href="Harsh.html">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#details">Kerala Details</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Kerala</h2>
+            <p>Kerala, located on the southwestern coast of India, is a paradise known for its serene beaches, lush landscapes, vibrant culture, and rich heritage. It is often referred to as "God's Own Country" due to its abundant natural beauty, including the famous backwaters, hill stations, waterfalls, and wildlife sanctuaries. Kerala is also renowned for its traditional arts, unique cuisine, Ayurveda treatments, and colorful festivals.</p>
+            <img src="https://images.pexels.com/photos/962464/pexels-photo-962464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Kerala Beach" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Kerala</h2>
+            <p>Travel options to **Kerala** from **LPU (Lovely Professional University)**:</p>
+            <ul>
+                <li><strong>Kerala (Cochin/Kochi):</strong> ~2,000 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹4,000 - ₹6,500 (to Cochin International Airport)</li>
+                        <li><strong>Train:</strong> ₹800 - ₹1,500 (to Ernakulam Railway Station, Kochi)</li>
+                        <li><strong>Bus:</strong> ₹1,000 - ₹1,500 (approximately 28-30 hours)</li>
+                    </ul>
+                </li>
+                <li><strong>Thiruvananthapuram:</strong> ~2,500 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹4,500 - ₹7,500 (to Thiruvananthapuram International Airport)</li>
+                        <li><strong>Train:</strong> ₹1,000 - ₹1,800 (to Thiruvananthapuram Central Railway Station)</li>
+                        <li><strong>Bus:</strong> ₹1,200 - ₹1,800 (approximately 30-32 hours)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations in Kerala</h2>
+            <p>Kerala offers a variety of destinations for all kinds of travelers. From beaches to hill stations and backwaters, here are some must-visit places:</p>
+
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/28890056/pexels-photo-28890056/free-photo-of-scenic-houseboats-on-kerala-s-backwaters.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Alleppey Backwaters" class="destination-image">
+                <div class="destination-info">
+                    <h3>Alleppey (Alappuzha)</h3>
+                    <p>Known as the "Venice of the East," Alleppey is famous for its enchanting backwaters and houseboat cruises. You can spend a day on a traditional Kerala houseboat, floating through picturesque canals surrounded by lush green landscapes. Alleppey is also home to the beautiful Alappuzha Beach and the historic Ambalappuzha Sri Krishna Temple.</p>
+                </div>
+            </div>
+
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/14730465/pexels-photo-14730465.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Munnar" class="destination-image">
+                <div class="destination-info">
+                    <h3>Munnar</h3>
+                    <p>Munnar, a hill station nestled in the Western Ghats, is famous for its tea plantations, mist-covered hills, and pristine natural beauty. The town offers scenic trekking routes, waterfalls like Attukal and Cheeyapara, and the Eravikulam National Park, home to the endangered Nilgiri Tahr.</p>
+                </div>
+            </div>
+
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/1435366688/photo/kerala-backwaters-houseboat-trip.jpg?b=1&s=612x612&w=0&k=20&c=8U9nlmb1tpB6TdZlKLaWf7JQ3Cpx9pisC--6_N2YM3s=" alt="Kumarakom" class="destination-image">
+                <div class="destination-info">
+                    <h3>Kumarakom</h3>
+                    <p>Situated on the Vembanad Lake, Kumarakom is known for its serene backwaters, bird sanctuary, and tranquil houseboat experiences. The Kumarakom Bird Sanctuary is home to a wide variety of migratory birds, making it a popular destination for bird watchers. The calm, soothing atmosphere makes it perfect for a relaxing holiday.</p>
+                </div>
+            </div>
+
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/4059604/pexels-photo-4059604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Kovalam Beach" class="destination-image">
+                <div class="destination-info">
+                    <h3>Kovalam Beach</h3>
+                    <p>Kovalam is a famous beach destination in Kerala, known for its crescent-shaped beaches and clear blue waters. It is ideal for sunbathing, swimming, and water sports like surfing and parasailing. The Lighthouse Beach, Samudra Beach, and Hawa Beach are popular among tourists.</p>
+                </div>
+            </div>
+
+            <div class="destination">
+                <img src="data:image/jpeg;base64,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" alt="Thekkady" class="destination-image">
+                <div class="destination-info">
+                    <h3>Thekkady</h3>
+                    <p>Thekkady is famous for the Periyar Wildlife Sanctuary, where you can take boat safaris through the Periyar Lake, spotting elephants, tigers, and various wildlife. The spice plantations and the surrounding forest area make it a great destination for nature lovers and adventure seekers alike.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="details">
+            <h2>Kerala Details</h2>
+            <p>Kerala, known as "God's Own Country," is one of the most beautiful places in India. From the enchanting backwaters in Alleppey and Kumarakom to the pristine beaches in Varkala and Kovalam, Kerala offers a unique experience for every traveler. Kerala is also home to wildlife sanctuaries such as Thekkady, which is famous for its spice plantations and the Periyar Tiger Reserve.</p>
+            <p>Kerala’s culture is deeply rooted in its traditions, which include Kathakali dance, Kalaripayattu martial arts, and various forms of traditional music. The state is famous for its Ayurveda practices, where visitors can indulge in natural therapies and healing treatments. Kerala's cuisine is equally famous, with seafood, coconut-based dishes, and the iconic Kerala Sadya feast being some of the must-try experiences.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Kerala. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

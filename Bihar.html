@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Bihar</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        header {
+            background-color: #2980B9;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 20px;
+        }
+
+        /* Banner Image */
+        .banner-image {
+            width: 750px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 19%;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Transportation Section */
+        #transportation {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Destination Styles */
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: scale(1.02);
+        }
+
+        .destination-image {
+            width: 300px;
+            height: auto;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Video Section */
+        .video-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #2980B9;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #1D6A8B;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2980B9;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Bihar</h1>
+        <nav>
+            <ul>
+                <li><a href="Harsh.html">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Bihar</h2>
+            <p>Bihar, the land of historical significance, is home to landmarks like Bodh Gaya, Patna, Nalanda, and Rajgir. Known for its rich cultural heritage, Bihar is a blend of ancient history and modern vibrancy.</p>
+            <img src="https://media.istockphoto.com/id/530927704/photo/mahabodhi-temple-bodhgaya.jpg?b=1&s=612x612&w=0&k=20&c=AScnkVFioWODVIO_slVsF1ckDMPXij_xGXHtRxvd9WU=" alt="Scenic Bihar" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Bihar</h2>
+            <p>Travel options to Bihar from LPU:</p>
+            <ul>
+                <li><strong>Patna:</strong> ~1,400 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,000 - ₹5,500 (to Jay Prakash Narayan International Airport)</li>
+                        <li><strong>Bus:</strong> ₹1,100 - ₹2,000 (approximately 28-32 hours)</li>
+                        <li><strong>Train:</strong> ₹900 - ₹1,600 (to Patna Junction)</li>
+                    </ul>
+                </li>
+                <li><strong>Bodh Gaya:</strong> ~1,450 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,500 - ₹6,000 (to Gaya Airport, then 20 km by road)</li>
+                        <li><strong>Bus:</strong> ₹1,200 - ₹2,300 (approximately 30-35 hours)</li>
+                        <li><strong>Train:</strong> ₹1,000 - ₹1,800 (to Gaya Junction, then 10 km by road)</li>
+                    </ul>
+                </li>
+                <li><strong>Nalanda:</strong> ~1,420 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,000 - ₹5,500 (to Patna, then 20 km by road)</li>
+                        <li><strong>Bus:</strong> ₹1,200 - ₹2,200 (approximately 30-35 hours)</li>
+                        <li><strong>Train:</strong> ₹900 - ₹1,600 (to Nalanda Railway Station)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations in Bihar</h2>
+            <div class="destination">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFyofyy4FuDpDOyCP3Lb_29odjpB-2hOn49Q&s" alt="Patna" class="destination-image">
+                <div class="destination-info">
+                    <h3>Patna</h3>
+                    <p>The capital city of Bihar, Patna is rich in history and modern culture. Visit Patna Sahib, the birthplace of Guru Gobind Singh, and enjoy the Ganga Aarti at Gandhi Ghat.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://t3.ftcdn.net/jpg/03/30/80/74/240_F_330807444_XS6VD5qHDI8kp7ocFhHE2AHS4vXyd6K0.jpg" alt="Bodh Gaya" class="destination-image">
+                <div class="destination-info">
+                    <h3>Bodh Gaya</h3>
+                    <p>Bodh Gaya is one of the holiest Buddhist sites in the world. The Mahabodhi Temple, where Buddha attained enlightenment, is a major pilgrimage destination.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/505519489/photo/nalanda-university-bihar-ruin.jpg?b=1&s=612x612&w=0&k=20&c=P1pwSbct7N1HT75BD0bl0bmrJGK4kwUovRBs5uqjzRI=" alt="Nalanda" class="destination-image">
+                <div class="destination-info">
+                    <h3>Nalanda</h3>
+                    <p>Known for the ancient Nalanda University, a center of learning in medieval India, Nalanda offers a glimpse into India's intellectual history.</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="3" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Bihar. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

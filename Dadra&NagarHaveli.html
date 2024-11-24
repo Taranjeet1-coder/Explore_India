@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Dadra & Nagar Haveli</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 20px;
+        }
+
+        /* Banner Image */
+        .banner-image {
+            width: 750px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 19%;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Transportation Section */
+        #transportation {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Destination Styles */
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: scale(1.02);
+        }
+
+        .destination-image {
+            width: 300px;
+            height: auto;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Video Section */
+        .video-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #1a252f;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Dadra & Nagar Haveli</h1>
+        <nav>
+            <ul>
+                <li><a href="Harsh.html">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Dadra & Nagar Haveli</h2>
+            <p>Dadra & Nagar Haveli is a small Union Territory located between Gujarat and Maharashtra. Known for its scenic beauty, lush greenery, and tribal culture, it is an ideal destination for nature lovers and those looking to experience rural life.</p>
+            <img src="https://images.unsplash.com/photo-1598997392759-c3bb7491e0b3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Scenic Dadra & Nagar Haveli" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Dadra & Nagar Haveli</h2>
+            <p>Travel options to Dadra & Nagar Haveli from LPU:</p>
+            <ul>
+                <li><strong>Silvassa (Capital of Dadra & Nagar Haveli):</strong> ~1,600 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹4,000 - ₹7,000 (to Daman Airport, then by road to Silvassa)</li>
+                        <li><strong>Train:</strong> ₹900 - ₹2,500 (to Vapi Railway Station, then by road to Silvassa)</li>
+                        <li><strong>Bus:</strong> ₹1,000 - ₹1,500 (approximately 30-35 hours)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations in Dadra & Nagar Haveli</h2>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/1179015231/photo/panoramic-view-of-dudhni-lake.jpg?b=1&s=612x612&w=0&k=20&c=1DoqRCMDtXs-MiELGIlbbpCLBaDgcrdB0gBNravyE7w=" alt="Silvassa" class="destination-image">
+                <div class="destination-info">
+                    <h3>Silvassa</h3>
+                    <p>Silvassa is the capital of Dadra & Nagar Haveli and is known for its peaceful environment, tribal culture, and natural beauty. Visit the vibrant tribal villages, peaceful lakes, and the beautiful Dudhni Lake.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/2649841/pexels-photo-2649841.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Khadoli Wildlife Sanctuary" class="destination-image">
+                <div class="destination-info">
+                    <h3>Khadoli Wildlife Sanctuary</h3>
+                    <p>This sanctuary is a haven for wildlife enthusiasts, home to diverse flora and fauna including the leopard, hyena, and various species of birds. It is a great place for trekking and nature walks.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/1090306550/photo/sunrise-at-kolkata.jpg?b=1&s=612x612&w=0&k=20&c=VOnceE3ra_TaAW_2M-du9FsF7vMLkVEOFAoEnfuhiik=" alt="Maidan Giri" class="destination-image">
+                <div class="destination-info">
+                    <h3>Maidan Giri</h3>
+                    <p>Situated atop a hill, Maidan Giri offers a panoramic view of the surrounding area. It is famous for its serene atmosphere and is ideal for nature walks and photography.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="data:image/jpeg;base64,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" alt="Vanganga Lake" class="destination-image">
+                <div class="destination-info">
+                    <h3>Vanganga Lake</h3>
+                    <p>Vanganga Lake is a beautiful spot surrounded by lush greenery and is a peaceful place for boating and picnics. The lake is located near the Vanganga Garden, which is also a popular tourist spot.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Dadra & Nagar Haveli. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

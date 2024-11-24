@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Goa</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 20px;
+        }
+
+        /* Banner Image */
+        .banner-image {
+            width: 750px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 19%;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Transportation Section */
+        #transportation {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Destination Styles */
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: scale(1.02);
+        }
+
+        .destination-image {
+            width: 300px;
+            height: auto;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Video Section */
+        .video-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #1a252f;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Goa</h1>
+        <nav>
+            <ul>
+                <li><a href="Harsh.html">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Goa</h2>
+            <p>Goa, known for its golden beaches, vibrant nightlife, and Portuguese heritage, is a popular travel destination for people from all over the world. Whether you're seeking relaxation, adventure, or culture, Goa offers a diverse range of experiences for every traveler.</p>
+            <img src="https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg" alt="Scenic Goa" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Goa</h2>
+            <p>Travel options to Goa from LPU:</p>
+            <ul>
+                <li><strong>North Goa (e.g., Baga Beach):</strong> ~1,800 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹4,500 - ₹7,000 (to Goa International Airport)</li>
+                        <li><strong>Bus:</strong> ₹1,500 - ₹2,200 (approximately 28-30 hours)</li>
+                        <li><strong>Train:</strong> ₹900 - ₹1,500 (to Madgaon Railway Station or Thivim Railway Station)</li>
+                    </ul>
+                </li>
+                <li><strong>South Goa (e.g., Palolem Beach):</strong> ~1,850 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹4,500 - ₹6,500 (to Goa International Airport)</li>
+                        <li><strong>Bus:</strong> ₹1,800 - ₹2,400 (approximately 30-32 hours)</li>
+                        <li><strong>Train:</strong> ₹900 - ₹1,500 (to Madgaon Railway Station, followed by a short drive)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations in Goa</h2>
+            <div class="destination">
+                <img src="data:image/jpeg;base64,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" alt="Baga Beach" class="destination-image">
+                <div class="destination-info">
+                    <h3>Baga Beach</h3>
+                    <p>Baga Beach is one of the most popular beaches in Goa, known for its vibrant nightlife, water sports, and beach shacks. It is the perfect destination for both relaxation and adventure.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/19346797/pexels-photo-19346797/free-photo-of-our-lady-of-the-immaculate-conception-church-in-panaji.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Old Goa" class="destination-image">
+                <div class="destination-info">
+                    <h3>Old Goa</h3>
+                    <p>Old Goa, a UNESCO World Heritage Site, is known for its colonial architecture, including historic churches and cathedrals like the Basilica of Bom Jesus and Se Cathedral.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/29067614/pexels-photo-29067614/free-photo-of-scenic-waterfall-in-lush-forest-landscape.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dudhsagar Falls" class="destination-image">
+                <div class="destination-info">
+                    <h3>Dudhsagar Falls</h3>
+                    <p>Dudhsagar Falls, one of the tallest waterfalls in India, is located in the Bhagwan Mahavir Wildlife Sanctuary. The majestic waterfall is a popular spot for trekkers and nature lovers.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQisdQxEB1Ie_o0-EAKkUDn9JkjEKoGcskDpA&s" alt="Palolem Beach" class="destination-image">
+                <div class="destination-info">
+                    <h3>Palolem Beach</h3>
+                    <p>Located in South Goa, Palolem Beach is known for its beautiful crescent-shaped coastline, calm waters, and laid-back vibe, making it an ideal spot for relaxation and yoga retreats.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Goa. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Jharkhand</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 20px;
+        }
+
+        /* Banner Image */
+        .banner-image {
+            width: 750px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 19%;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Transportation Section */
+        #transportation {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Destination Styles */
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: scale(1.02);
+        }
+
+        .destination-image {
+            width: 300px;
+            height: auto;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Video Section */
+        .video-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #388e3c;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Jharkhand</h1>
+        <nav>
+            <ul>
+                <li><a href="Harsh.html">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Jharkhand</h2>
+            <p>Jharkhand, known for its lush forests, wildlife, and natural beauty, is a state in eastern India with vibrant tribal culture and breathtaking landscapes. From the scenic waterfalls of Ranchi to the spiritual energy of Baidyanath Temple, Jharkhand offers a unique experience for travelers!</p>
+            <img src="https://media.istockphoto.com/id/1325410596/photo/swami-vivekananda-memorial-at-sunrise-located-at-ranchi-jharkhand-tourism.jpg?s=612x612&w=0&k=20&c=R4NW7dSlvMzvShXlG1zz3VMrrcSPfxIzwuXu6BuQWuA=" alt="Scenic Jharkhand" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Jharkhand</h2>
+            <p>Travel options to Jharkhand from LPU:</p>
+            <ul>
+                <li><strong>Ranchi:</strong> ~1,400 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,000 - ₹5,500 (to Birsa Munda Airport)</li>
+                        <li><strong>Bus:</strong> ₹1,200 - ₹2,000 (approximately 25-30 hours)</li>
+                        <li><strong>Train:</strong> ₹800 - ₹1,500 (to Ranchi Junction)</li>
+                    </ul>
+                </li>
+                <li><strong>Jamshedpur:</strong> ~1,450 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,500 - ₹6,000 (nearest airport is Birsa Munda Airport, then 130 km by road)</li>
+                        <li><strong>Bus:</strong> ₹1,200 - ₹2,000 (approximately 28-32 hours)</li>
+                        <li><strong>Train:</strong> ₹800 - ₹1,500 (to Tatanagar Junction)</li>
+                    </ul>
+                </li>
+                <li><strong>Deoghar:</strong> ~1,450 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,000 - ₹5,500 (nearest airport is Deoghar Airport)</li>
+                        <li><strong>Bus:</strong> ₹1,200 - ₹2,000 (approximately 28-32 hours)</li>
+                        <li><strong>Train:</strong> ₹800 - ₹1,500 (to Baidyanathdham Deoghar Station)</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>Choose your preferred mode of transportation and get ready to explore Jharkhand’s wonders!</p>
+        </section>
+        
+
+        <section id="destinations">
+            <h2>Top Destinations in Jharkhand</h2>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/1415368725/photo/jharkhand-vidhan-sabha-also-known-as-jharkhand-legislative-assembly-located-at-dhurwa-ranchi.jpg?b=1&s=612x612&w=0&k=20&c=z_wQ70k0aWweAbmIyoqxQ_ndeYQr5lCq52tqwTHkPQI=" alt="Ranchi" class="destination-image">
+                <div class="destination-info">
+                    <h3>Ranchi</h3>
+                    <p>Known as the "City of Waterfalls," Ranchi is a beautiful city filled with natural wonders like Dassam and Hundru Falls, alongside parks and scenic views from the Ranchi Hill.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/1412212828/photo/sir-dorabji-tata-park-located-in-jamshedpur-jharkhand-india-aerial-view.jpg?b=1&s=612x612&w=0&k=20&c=1zCjN6oqqAGMZMrekMv0Uw-HKVYEE3Odso7tWLtaAyA=" alt="Jamshedpur" class="destination-image">
+                <div class="destination-info">
+                    <h3>Jamshedpur</h3>
+                    <p>The "Steel City of India," known for its well-planned infrastructure and green spaces like Jubilee Park and Dalma Wildlife Sanctuary, perfect for nature lovers.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="data:image/jpeg;base64,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" alt="Deoghar" class="destination-image">
+                <div class="destination-info">
+                    <h3>Deoghar</h3>
+                    <p>A major pilgrimage site, Deoghar is home to the famous Baidyanath Temple, one of the twelve Jyotirlingas, and attracts millions of devotees every year.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required placeholder="Enter your name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required placeholder="Enter your email">
+                <label for="message">Message:</label>
+                <textarea id="message" required placeholder="Your message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Jharkhand. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Jammu & Kashmir</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 20px;
+        }
+
+        /* Banner Image */
+        .banner-image {
+            width: 750px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 19%;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Transportation Section */
+        #transportation {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Destination Styles */
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: scale(1.02);
+        }
+
+        .destination-image {
+            width: 300px;
+            height: auto;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Video Section */
+        .video-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #1a252f;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Jammu & Kashmir</h1>
+        <nav>
+            <ul>
+                <li><a href="Harsh.html">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Jammu & Kashmir</h2>
+            <p>Jammu & Kashmir, located in the northernmost region of India, is famous for its breathtaking landscapes, serene lakes, and snow-capped mountains. It is a paradise for nature lovers, adventure enthusiasts, and those seeking peace amidst majestic beauty.</p>
+            <img src="https://images.pexels.com/photos/26110235/pexels-photo-26110235/free-photo-of-man-on-boat-on-dal-lake-in-india.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Scenic Jammu & Kashmir" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Jammu & Kashmir</h2>
+            <p>Travel options to Jammu & Kashmir from LPU:</p>
+            <ul>
+                <li><strong>Srinagar (Capital of Jammu & Kashmir):</strong> ~1,100 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹5,000 - ₹8,000 (to Sheikh ul-Alam International Airport, Srinagar)</li>
+                        <li><strong>Train:</strong> ₹1,200 - ₹2,500 (to Jammu Tawi Railway Station, then road to Srinagar)</li>
+                        <li><strong>Bus:</strong> ₹1,000 - ₹2,000 (approximately 20-22 hours)</li>
+                    </ul>
+                </li>
+                <li><strong>Jammu (City):</strong> ~1,000 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹4,500 - ₹7,500 (to Jammu Airport)</li>
+                        <li><strong>Train:</strong> ₹1,000 - ₹2,500 (to Jammu Railway Station)</li>
+                        <li><strong>Bus:</strong> ₹900 - ₹1,800 (approximately 18-20 hours)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations in Jammu & Kashmir</h2>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/1171962535/photo/srinagar-kashmir.jpg?b=1&s=612x612&w=0&k=20&c=mF-CMTSM9jnXzaOalk4pucasRilUAbHiIDfpo1gUWZU=" alt="Srinagar" class="destination-image">
+                <div class="destination-info">
+                    <h3>Srinagar</h3>
+                    <p>Srinagar, the summer capital of Jammu & Kashmir, is known for its beautiful Dal Lake, houseboats, and Mughal gardens. It’s a haven for tourists seeking a peaceful getaway.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/26110236/pexels-photo-26110236/free-photo-of-people-on-a-hill-in-valley-covered-with-snow.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Gulmarg" class="destination-image">
+                <div class="destination-info">
+                    <h3>Gulmarg</h3>
+                    <p>Famous for its ski resorts and lush green meadows, Gulmarg is the perfect destination for winter sports enthusiasts and nature lovers alike.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="data:image/jpeg;base64,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" alt="Leh-Ladakh" class="destination-image">
+                <div class="destination-info">
+                    <h3>Leh-Ladakh</h3>
+                    <p>Leh, in the region of Ladakh, offers unparalleled scenic beauty with its arid mountains, pristine lakes, and Buddhist monasteries. It’s ideal for trekking and adventure tourism.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/13081039/pexels-photo-13081039.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Vaishno Devi" class="destination-image">
+                <div class="destination-info">
+                    <h3>Vaishno Devi</h3>
+                    <p>A major pilgrimage destination, Vaishno Devi Temple attracts millions of devotees annually. It is located atop Trikuta Mountain and offers a spiritually enriching experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Jammu & Kashmir. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

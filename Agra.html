@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Agra</title>
+    <style>
+        /* Global Styles */
+        body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        }
+
+        header {
+        background-color: #ff5722;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+        list-style: none;
+        padding: 0;
+        }
+
+        nav ul li {
+        display: inline;
+        margin: 0 15px;
+        }
+
+        nav ul li a {
+        color: white;
+        text-decoration: none;
+        }
+
+        /* Add hover effect for navigation links */
+        nav ul li a:hover {
+        text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+        padding: 20px;
+        }
+
+        /* Banner Image */
+.banner-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Transportation Styles */
+#transportation {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+/* Destination Styles */
+.destination {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.destination:hover {
+    transform: scale(1.02);
+}
+
+.destination-image {
+    width: 300px;
+    height: auto;
+}
+
+.destination-info {
+    padding: 20px;
+}
+
+.destination-info h3 {
+    margin: 0 0 10px;
+}
+
+/* Video Styles */
+.video-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e64a19;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="Agra.css"> -->
+</head>
+<body>
+    <header>
+        <h1>Explore Agra</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#video">Video Tour</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Agra</h2>
+            <p>Agra is famous for its rich history and stunning architecture, most notably the Taj Mahal.</p>
+            <img src="images/agra-banner.jpg" alt="Agra City" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Agra</h2>
+            <p>If you're traveling from Home to Agra, here are the estimated costs:</p>
+            <ul>
+                <li><strong>Bus:</strong> ₹300 - ₹700 (depending on the bus service)</li>
+                <li><strong>Train:</strong> ₹200 - ₹1500 (depends on class and distance)</li>
+                <li><strong>Flight:</strong> ₹1500 - ₹4000 (depending on the distance and booking time)</li>
+            </ul>
+            <p>Plan your journey and experience the beauty of Agra!</p>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations in Agra</h2>
+            <div class="destination">
+                <img src="images/taj-mahal.jpg" alt="Taj Mahal" class="destination-image">
+                <div class="destination-info">
+                    <h3>Taj Mahal</h3>
+                    <p>A UNESCO World Heritage Site, this iconic mausoleum is a symbol of love and a must-visit in Agra.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="images/agrapfort.jpg" alt="Agra Fort" class="destination-image">
+                <div class="destination-info">
+                    <h3>Agra Fort</h3>
+                    <p>A historical fort known for its stunning architecture and rich history, offering beautiful views of the Taj Mahal.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="images/mehtab-bagh.jpg" alt="Mehtab Bagh" class="destination-image">
+                <div class="destination-info">
+                    <h3>Mehtab Bagh</h3>
+                    <p>A beautiful garden complex located across the Yamuna River, offering stunning views of the Taj Mahal at sunset.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="images/jama-masjid.jpg" alt="Jama Masjid" class="destination-image">
+                <div class="destination-info">
+                    <h3>Jama Masjid</h3>
+                    <p>A large mosque with beautiful architecture, known for its serene ambiance and stunning views of the city.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="images/fatehpur-sikri.jpg" alt="Fatehpur Sikri" class="destination-image">
+                <div class="destination-info">
+                    <h3>Fatehpur Sikri</h3>
+                    <p>A UNESCO World Heritage Site, this city was once the capital of the Mughal Empire and showcases stunning architecture.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="video">
+            <h2>Video Tour of Agra</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Agra. All rights reserved.</p>
+    </footer>
+</body>
+</html>

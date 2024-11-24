@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Rajasthan</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 20px;
+        }
+
+        /* Banner Image */
+        .banner-image {
+            width: 750px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 19%;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Transportation Section */
+        #transportation {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Destination Styles */
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: scale(1.02);
+        }
+
+        .destination-image {
+            width: 300px;
+            height: auto;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Video Section */
+        .video-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #1a252f;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Rajasthan</h1>
+        <nav>
+            <ul>
+                <li><a href="Harsh.html">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Rajasthan</h2>
+            <p>Rajasthan, known as the "Land of Kings," is famous for its rich history, majestic palaces, forts, desert landscapes, and vibrant culture. A journey through Rajasthan is like stepping back in time to experience India's royal heritage.</p>
+            <img src="https://t4.ftcdn.net/jpg/06/39/42/79/240_F_639427941_h4sHH7Z1cmVrqY0bTY9TYBqbhWhmWfOP.jpg" alt="Scenic Rajasthan Landscape" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Rajasthan</h2>
+            <p>Travel options to Rajasthan from LPU:</p>
+            <ul>
+                <li><strong>Jaipur:</strong> ~500 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹2,500 - ₹5,000 (to Jaipur International Airport)</li>
+                        <li><strong>Bus:</strong> ₹700 - ₹1,200 (approximately 8-10 hours)</li>
+                        <li><strong>Train:</strong> ₹400 - ₹1,000 (to Jaipur Railway Station)</li>
+                    </ul>
+                </li>
+                <li><strong>Udaipur:</strong> ~700 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,500 - ₹6,500 (to Maharana Pratap Airport)</li>
+                        <li><strong>Bus:</strong> ₹900 - ₹1,500 (approximately 12-14 hours)</li>
+                        <li><strong>Train:</strong> ₹500 - ₹1,200 (to Udaipur Railway Station)</li>
+                    </ul>
+                </li>
+                <li><strong>Jodhpur:</strong> ~600 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,000 - ₹5,500 (to Jodhpur Airport)</li>
+                        <li><strong>Bus:</strong> ₹800 - ₹1,300 (approximately 10-12 hours)</li>
+                        <li><strong>Train:</strong> ₹500 - ₹1,000 (to Jodhpur Railway Station)</li>
+                    </ul>
+                </li>
+                <li><strong>Jaisalmer:</strong> ~800 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,500 - ₹7,000 (to Jaisalmer Airport, connecting flights via Jaipur)</li>
+                        <li><strong>Bus:</strong> ₹1,000 - ₹1,500 (approximately 15-17 hours)</li>
+                        <li><strong>Train:</strong> ₹600 - ₹1,200 (to Jaisalmer Railway Station)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations in Rajasthan</h2>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/2870167/pexels-photo-2870167.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Amber Fort, Jaipur" class="destination-image">
+                <div class="destination-info">
+                    <h3>Amber Fort, Jaipur</h3>
+                    <p>Amber Fort, a UNESCO World Heritage Site, is one of the most iconic attractions in Rajasthan. Its stunning architecture, beautiful courtyards, and panoramic views of the surrounding landscapes make it a must-visit destination.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/7195782/pexels-photo-7195782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Lake Palace, Udaipur" class="destination-image">
+                <div class="destination-info">
+                    <h3>Lake Palace, Udaipur</h3>
+                    <p>The Lake Palace, located on Lake Pichola, is a symbol of royal luxury and beauty. The palace is an architectural marvel and provides a serene and romantic atmosphere perfect for relaxation and sightseeing.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/15774210/pexels-photo-15774210/free-photo-of-ancient-museum-on-a-hill-in-india.png?auto=compress&cs=tinysrgb&w=600" alt="Mehrangarh Fort, Jodhpur" class="destination-image">
+                <div class="destination-info">
+                    <h3>Mehrangarh Fort, Jodhpur</h3>
+                    <p>Mehrangarh is one of the largest and most magnificent forts in India. It offers stunning views of the Blue City of Jodhpur and houses an extensive collection of artifacts, paintings, and historical exhibits.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/26558824/pexels-photo-26558824/free-photo-of-barren-mountain-in-the-desert.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Jaisalmer Sand Dunes" class="destination-image">
+                <div class="destination-info">
+                    <h3>Jaisalmer Sand Dunes</h3>
+                    <p>Experience the beauty of the Thar Desert at the Jaisalmer Sand Dunes. Camel rides, traditional Rajasthani performances, and desert camping are popular activities for tourists visiting this golden city.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Rajasthan. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

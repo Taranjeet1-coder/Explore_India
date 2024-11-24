@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Haryana</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        header {
+            background-color: #8B0000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 20px;
+        }
+
+        /* Banner Image */
+        .banner-image {
+            width: 750px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 19%;
+        }
+
+        /* Transportation Styles */
+        #transportation {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        /* Destination Styles */
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: scale(1.02);
+        }
+
+        .destination-image {
+            width: 300px;
+            height: auto;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Video Styles */
+        .video-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 10px;
+            background-color: #8B0000;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #6E0000;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #8B0000;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Haryana</h1>
+        <nav>
+            <ul>
+                <li><a href="Harsh.html">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Haryana</h2>
+            <p>Haryana, a northern state in India, is known for its rich history, vibrant culture, and agricultural prominence. Explore the dynamic cities and serene villages of Haryana!</p>
+            <img src="https://c1.wallpaperflare.com/preview/455/326/428/murudeshwar-arabian-sea-karnataka-gopuram.jpg" alt="Scenic Haryana" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Haryana</h2>
+            <p>Travel options to reach Haryana from LPU:</p>
+            <ul>
+                <li><strong>Chandigarh:</strong> ~350 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹2,500 - ₹5,000 (to Chandigarh Airport)</li>
+                        <li><strong>Bus:</strong> ₹500 - ₹1,200 (approximately 6-8 hours)</li>
+                        <li><strong>Train:</strong> ₹300 - ₹800 (nearest station is Ambala)</li>
+                    </ul>
+                </li>
+                <li><strong>Gurgaon:</strong> ~400 km from LPU
+                    <ul>
+                        <li><strong>Flight to Delhi + Cab:</strong> ₹2,500 - ₹4,500</li>
+                        <li><strong>Bus:</strong> ₹600 - ₹1,200 (approximately 8-10 hours)</li>
+                        <li><strong>Train:</strong> ₹400 - ₹900 (to Gurgaon Railway Station)</li>
+                    </ul>
+                </li>
+                <li><strong>Faridabad:</strong> ~420 km from LPU
+                    <ul>
+                        <li><strong>Flight to Delhi + Cab:</strong> ₹2,800 - ₹4,800</li>
+                        <li><strong>Bus:</strong> ₹700 - ₹1,500 (approximately 8-10 hours)</li>
+                        <li><strong>Train:</strong> ₹300 - ₹700 (to Faridabad Railway Station)</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>Choose your preferred mode of transportation to experience the culture and hospitality of Haryana!</p>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations in Haryana</h2>
+            <div class="destination">
+                <img src="https://t4.ftcdn.net/jpg/02/74/12/51/240_F_274125189_BXHIWXgd3dR7Pm5NPTywrAWx4QTxcyIe.jpg" alt="Chandigarh" class="destination-image">
+                <div class="destination-info">
+                    <h3>Chandigarh</h3>
+                    <p>The capital city known for its modern architecture and urban design.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://t4.ftcdn.net/jpg/03/40/59/37/360_F_340593788_U2YdWlxaLYArkztLFUHDIyWxIKAlJ70d.jpg" alt="Gurgaon" class="destination-image">
+                <div class="destination-info">
+                    <h3>Gurgaon</h3>
+                    <p>A bustling city known for its skyscrapers and corporate hubs.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="data:image/jpeg;base64,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" alt="Faridabad" class="destination-image">
+                <div class="destination-info">
+                    <h3>Faridabad</h3>
+                    <p>A city with rich history, industrial growth, and cultural significance.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Haryana. All rights reserved.</p>
+    </footer>
+</body>
+</html>

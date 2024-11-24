@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Gujarat</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        header {
+            background-color: #00695C;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 20px;
+        }
+
+        /* Banner Image */
+        .banner-image {
+            width: 750px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 19%;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Transportation Section */
+        #transportation {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Destination Styles */
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: scale(1.02);
+        }
+
+        .destination-image {
+            width: 300px;
+            height: auto;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Video Section */
+        .video-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #00695C;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #004d40;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #00695C;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Gujarat</h1>
+        <nav>
+            <ul>
+                <li><a href="Harsh.html">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Gujarat</h2>
+            <p>Gujarat, a vibrant state in western India, is known for its rich cultural heritage, beautiful landscapes, historic sites, and thriving industries. From the architectural marvels of Ahmedabad to the serene white deserts of Kutch, Gujarat has something unique for every traveler!</p>
+            <img src="https://media.istockphoto.com/id/1321292335/photo/decorated-camels-in-rann-utsav-at-white-rann-of-kutch.jpg?b=1&s=612x612&w=0&k=20&c=dHzEqUO8m9_ojPbLAkN6nuLDt6ctZ7pnu_bIh82rsm8=" alt="Scenic Gujarat" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Gujarat</h2>
+            <p>Travel options to Gujarat from LPU:</p>
+            <ul>
+                <li><strong>Ahmedabad:</strong> ~1,300 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,500 - ₹6,000 (to Sardar Vallabhbhai Patel International Airport)</li>
+                        <li><strong>Bus:</strong> ₹1,200 - ₹2,200 (24-28 hours)</li>
+                        <li><strong>Train:</strong> ₹900 - ₹1,600 (to Ahmedabad Junction)</li>
+                    </ul>
+                </li>
+                <li><strong>Vadodara:</strong> ~1,200 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,500 - ₹6,000 (to Vadodara Airport)</li>
+                        <li><strong>Bus:</strong> ₹1,200 - ₹2,200 (24-27 hours)</li>
+                        <li><strong>Train:</strong> ₹800 - ₹1,500 (to Vadodara Junction)</li>
+                    </ul>
+                </li>
+                <li><strong>Somnath:</strong> ~1,500 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹4,000 - ₹6,500 (to Diu Airport, then 85 km by road)</li>
+                        <li><strong>Bus:</strong> ₹1,500 - ₹2,500 (28-33 hours)</li>
+                        <li><strong>Train:</strong> ₹1,000 - ₹1,800 (to Veraval Junction, then 7 km by road)</li>
+                    </ul>
+                </li>
+                <li><strong>Kutch (Bhuj):</strong> ~1,600 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹4,000 - ₹7,000 (to Bhuj Airport)</li>
+                        <li><strong>Bus:</strong> ₹1,500 - ₹2,500 (30-35 hours)</li>
+                        <li><strong>Train:</strong> ₹1,000 - ₹1,800 (to Bhuj Railway Station)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations in Gujarat</h2>
+            <div class="destination">
+                <img src="data:image/jpeg;base64,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" alt="Ahmedabad" class="destination-image">
+                <div class="destination-info">
+                    <h3>Ahmedabad</h3>
+                    <p>A UNESCO World Heritage City, known for its stunning architecture, vibrant festivals, and the Sabarmati Ashram, home to Mahatma Gandhi.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/647770280/photo/the-lukshmi-vilas-palace-seen-on-a-bright-sunny-afternoon.jpg?b=1&s=612x612&w=0&k=20&c=_ijnFCh8GBUFDTlOh7qdw2-YHK4fpB1SEkyEB4dzOuI=" alt="Vadodara" class="destination-image">
+                <div class="destination-info">
+                    <h3>Vadodara</h3>
+                    <p>Known for the Laxmi Vilas Palace and rich Maratha history, Vadodara offers a blend of tradition and modernity.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/1174372687/photo/somnath-temple-facade-gujarat.jpg?b=1&s=612x612&w=0&k=20&c=z7-21gKVsluXQ6axZkQbjnw-H3hYOiR6x6VKI863wLY=" alt="Somnath" class="destination-image">
+                <div class="destination-info">
+                    <h3>Somnath</h3>
+                    <p>Home to the famous Somnath Temple, a significant pilgrimage site, and a place of historical importance.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/1321292335/photo/decorated-camels-in-rann-utsav-at-white-rann-of-kutch.jpg?b=1&s=612x612&w=0&k=20&c=dHzEqUO8m9_ojPbLAkN6nuLDt6ctZ7pnu_bIh82rsm8=" alt="Kutch" class="destination-image">
+                <div class="destination-info">
+                    <h3>Kutch</h3>
+                    <p>Famous for the Rann of Kutch, a stunning white salt desert that hosts the annual Rann Utsav festival.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="3" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Explore Gujarat. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

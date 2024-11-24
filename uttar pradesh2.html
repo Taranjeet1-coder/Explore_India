@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Uttar Pradesh</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 20px;
+        }
+
+        /* Banner Image */
+        .banner-image {
+            width: 750px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 19%;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Transportation Section */
+        #transportation {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Destination Styles */
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: scale(1.02);
+        }
+
+        .destination-image {
+            width: 300px;
+            height: auto;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Video Section */
+        .video-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #1a252f;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Uttar Pradesh</h1>
+        <nav>
+            <ul>
+                <li><a href="Harsh.html">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Uttar Pradesh</h2>
+            <p>Uttar Pradesh is known for its rich historical, cultural, and religious heritage. Home to iconic landmarks like the Taj Mahal, Varanasi ghats, and Lucknow’s Mughal architecture, it’s a must-visit state for every traveler.</p>
+            <img src="https://t3.ftcdn.net/jpg/09/75/79/12/240_F_975791293_641DJlf7S6at8yzTYAwvEP3VG1LsYrwE.jpg" alt="Scenic Uttar Pradesh" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Uttar Pradesh</h2>
+            <p>Travel options to Uttar Pradesh from LPU:</p>
+            <ul>
+                <li><strong>Agra:</strong> ~500 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,000 - ₹5,500 (to Agra Airport)</li>
+                        <li><strong>Bus:</strong> ₹800 - ₹1,300 (approximately 8-9 hours)</li>
+                        <li><strong>Train:</strong> ₹500 - ₹1,000 (to Agra Railway Station)</li>
+                    </ul>
+                </li>
+                <li><strong>Varanasi:</strong> ~700 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,500 - ₹6,000 (to Lal Bahadur Shastri International Airport)</li>
+                        <li><strong>Bus:</strong> ₹1,000 - ₹1,600 (approximately 12-14 hours)</li>
+                        <li><strong>Train:</strong> ₹600 - ₹1,200 (to Varanasi Railway Station)</li>
+                    </ul>
+                </li>
+                <li><strong>Lucknow:</strong> ~450 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,000 - ₹5,000 (to Chaudhary Charan Singh International Airport)</li>
+                        <li><strong>Bus:</strong> ₹700 - ₹1,200 (approximately 7-8 hours)</li>
+                        <li><strong>Train:</strong> ₹500 - ₹1,000 (to Lucknow Railway Station)</li>
+                    </ul>
+                </li>
+                <li><strong>Kanpur:</strong> ~450 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹3,000 - ₹5,500 (to Kanpur Airport)</li>
+                        <li><strong>Bus:</strong> ₹700 - ₹1,100 (approximately 8 hours)</li>
+                        <li><strong>Train:</strong> ₹500 - ₹1,000 (to Kanpur Railway Station)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations in Uttar Pradesh</h2>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg" alt="Taj Mahal" class="destination-image">
+                <div class="destination-info">
+                    <h3>Taj Mahal, Agra</h3>
+                    <p>The Taj Mahal is one of the Seven Wonders of the World and a symbol of eternal love. Its stunning white marble architecture attracts millions of visitors every year.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEmi5iGsaDMHXG0GMQkqJUgPvYEOz9A1lR4A&s" alt="Varanasi Ghats" class="destination-image">
+                <div class="destination-info">
+                    <h3>Varanasi Ghats</h3>
+                    <p>Known as the spiritual capital of India, Varanasi's ghats are famous for their daily rituals, offering a unique experience of Hindu spirituality and culture.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="data:image/jpeg;base64,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" alt="Lucknow" class="destination-image">
+                <div class="destination-info">
+                    <h3>Lucknow</h3>
+                    <p>Famous for its Mughal architecture, Lucknow is home to stunning landmarks such as the Bara Imambara, Rumi Darwaza, and the Chota Imambara.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0PGyt0UL4FTTcNdQZWz7aZ2DNgqMi5p1T9w&s" alt="Kanpur" class="destination-image">
+                <div class="destination-info">
+                    <h3>Kanpur</h3>
+                    <p>Kanpur is known for its industrial significance and historic landmarks, such as the Allen Forest Zoo and the Kanpur Memorial Church.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Uttar Pradesh. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

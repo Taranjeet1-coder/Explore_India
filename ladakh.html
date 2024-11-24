@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Ladakh</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        main {
+            padding: 20px;
+        }
+
+        /* Banner Image */
+        .banner-image {
+            width: 750px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 19%;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Transportation Section */
+        #transportation {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Destination Styles */
+        .destination {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .destination:hover {
+            transform: scale(1.02);
+        }
+
+        .destination-image {
+            width: 300px;
+            height: auto;
+        }
+
+        .destination-info {
+            padding: 20px;
+        }
+
+        .destination-info h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Video Section */
+        .video-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #1a252f;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Ladakh</h1>
+        <nav>
+            <ul>
+                <li><a href="Harsh.html">Home</a></li>
+                <li><a href="#transportation">Transportation</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Ladakh</h2>
+            <p>Ladakh, located in the northernmost region of India, is a place of awe-inspiring landscapes, tranquil monasteries, and rugged mountains. Known as the "Land of High Passes," Ladakh offers a unique blend of adventure and spirituality, making it a must-visit destination for nature lovers and explorers alike.</p>
+            <img src="https://s3.india.com/travel/wp-content/uploads/2016/06/Ladakh-3-shutterstock_291973781.jpg" alt="Scenic Ladakh" class="banner-image">
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation to Ladakh</h2>
+            <p>Travel options to Ladakh from LPU:</p>
+            <ul>
+                <li><strong>Leh (Ladakh's Capital):</strong> ~1,700 km from LPU
+                    <ul>
+                        <li><strong>Flight:</strong> ₹7,000 - ₹12,000 (to Leh Kushok Bakula Rimpochee Airport)</li>
+                        <li><strong>Bus:</strong> ₹1,500 - ₹2,500 (approximately 40-45 hours)</li>
+                        <li><strong>Train:</strong> There are no direct trains to Ladakh. The nearest railway station is Jammu (approx. 600 km), from where you can take a bus to Leh (approx. 12-14 hours).</li>
+                    </ul>
+                </li>
+                <li><strong>Magnetic Hill:</strong> ~25 km from Leh (approx. 30 minutes by car)
+                </li>
+                <li><strong>Pangong Lake:</strong> ~150 km from Leh (approx. 5 hours by car)
+                </li>
+                <li><strong> Nubra Valley:</strong> ~120 km from Leh (approx. 4 hours by car)
+                </li>
+            </ul>
+        </section>
+
+        <section id="destinations">
+            <h2>Top Destinations in Ladakh</h2>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/530741376/photo/leh-palace-ladakh-india.jpg?b=1&s=612x612&w=0&k=20&c=azgk4epCi9c1CoB1SUjuuSeVn1SJsh0oKldvDM4oIy0=" alt="Leh Palace" class="destination-image">
+                <div class="destination-info">
+                    <h3>Leh Palace</h3>
+                    <p>Leh Palace is a historic Tibetan-style palace located in the heart of Leh. The palace offers spectacular views of the Leh town and the surrounding Himalayan peaks. It is a great place to understand Ladakh's rich cultural heritage.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://media.istockphoto.com/id/1216899558/photo/long-straight-road-to-magnetic-hill-in-leh-ladakh.jpg?b=1&s=612x612&w=0&k=20&c=aY1lOCel7vUo-TSzldTwlxsekFGwnCjfNQw2MGRgZ5g=" alt="Magnetic Hill" class="destination-image">
+                <div class="destination-info">
+                    <h3>Magnetic Hill</h3>
+                    <p>Magnetic Hill is a famous spot where vehicles seem to defy gravity and appear to move uphill on their own. It is one of the most popular natural wonders in Ladakh, drawing travelers and thrill-seekers.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/1581200/pexels-photo-1581200.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pangong Lake" class="destination-image">
+                <div class="destination-info">
+                    <h3>Pangong Lake</h3>
+                    <p>Pangong Lake, located at an altitude of 4,350 meters, is one of the most beautiful lakes in the world. Known for its changing colors, the lake stretches across India and China and is a major attraction for tourists in Ladakh.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/29037107/pexels-photo-29037107/free-photo-of-majestic-rugged-mountains-in-ladakh-sunset.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Nubra Valley" class="destination-image">
+                <div class="destination-info">
+                    <h3>Nubra Valley</h3>
+                    <p>Nubra Valley is a high-altitude desert with stunning landscapes of sand dunes, monasteries, and lush green oases. It is famous for camel rides on Bactrian camels and its picturesque views.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Ladakh. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
